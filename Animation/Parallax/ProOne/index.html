@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="stylesheets/simple.css" />
+    <title>CSS Animation</title>
+  </head>
+  <body>
+    <article class="content">
+      <div class="one rellax" data-rellax-speed="4">Faster</div>
+      <div class="two">No parallax</div>
+      <div class="three rellax" data-rellax-speed="-4">Slower</div>
+    </article>
+    <script src="./javascripts/rellax.min.js"></script>
+    <script>
+      var rellax = new Rellax(".rellax");
+    </script>
+  </body>
+</html>
